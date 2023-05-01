@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center>
+      <div class="container">
+        <div class="date-input">
+          <div class="day">
+            <p class="day-label label">DAY</p>
+            <input class="day-input input" type="number" min="1" max="30" placeholder="DD">
+          </div>
+          <div class="month">
+            <p class="month-label label">MONTH</p>
+            <input class="month-input input" type="number" min="1" max="12" placeholder="MM">
+          </div>
+          <div class="year">
+            <p class="year-label label">YEAR</p>
+            <input class="year-input input" type="number" placeholder="YYYY">
+          </div>
+        </div>
+        <hr>
+        <button class="submit" onclick="dateCalculate()"><img class="arrow" src="images/icon-arrow.svg"></button>
+        <div class="date-cal">
+          <h1 class="year-cal"><span class="year-num">--</span> years</h1>
+          <h1 class="month-cal"><span class="month-num">--</span> months</h1>
+          <h1 class="day-cal"><span class="day-num">--</span> days</h1>
+        </div>
+      </div>
+    </center>
+    <script src="script.js"></script>
+  </body>
+</html>

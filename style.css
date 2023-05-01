@@ -1,0 +1,73 @@
+:root{
+    --purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+body{
+    background-color: var(--Off-white);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    justify-content: left;
+    align-self: center;
+    width: 600px;
+    height: 400px;
+    padding: 50px;
+    margin-top: 120px;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 160px;
+}
+.date-input{
+    display: flex;
+    margin-bottom: 30px;
+}
+.day, .month, .year{
+    text-align: left;
+    margin-right: 40px;
+}
+.label{
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: var(--Off-black);
+    font-size: 13px;
+}
+.input{
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.submit{
+    background-color: var(--purple);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: none;
+    margin-left: 540px;
+    margin-top: -70px;
+}
+.arrow{
+    width: 35px;
+}
+.date-cal{
+    text-align: left;
+    margin-top: -40px;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 70px;
+    font-weight: bold;
+}
+span{
+    color: var(--purple);
+    font-size: 60px;
+}
